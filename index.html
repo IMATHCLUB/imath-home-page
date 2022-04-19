@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PSNA Alumni</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allison&family=Rampart+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">
+</head>
+   <style>
+       *{
+        
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+       }
+       body{
+           background-color:black;
+           text-align: center;
+       }
+       
+       header{
+           height:50px;
+           width: :100%;
+           background-color:black;
+           animation: header 1s ease-in-out;
+    }
+    @keyframes header{
+        0%{
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+    }
+       
+       ul li{
+           display:flex;
+           float: right;
+           padding-left: 20px;
+           padding-top: 15px;
+           padding-right: 20px;
+           font-size: 15px;
+           font-weight: 600;
+           cursor: pointer;
+           
+       }
+       li a{
+           text-decoration: none;
+           color: white;
+       }
+       li i{
+           color: white;
+       } 
+         ul li:hover{
+           color: white;
+           opacity: 50%;
+       }
+       .bgimg{
+     
+        
+           animation:bgimg 2s  ease-in-out;
+          
+       
+    }
+    @keyframes bgimg{
+        0%{
+            opacity: 0;
+            transform: translatex(-100%);
+        }
+    }
+       .content{
+           text-align:center;
+            opacity: 100px;
+       
+       }
+       
+        .content button{        padding: 15px 30px;
+        background-color:grey;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-left:0%;
+        margin-top:3%;
+        font-weight:600;
+        cursor: pointer;
+        opacity: 100px;
+        
+        
+           
+    }
+        button a{
+        
+    text-decoration:none;
+           color: white; 
+     opacity: 100px;
+    }   
+
+       .content h1{
+           font-family: 'Architects Daughter', cursive; 
+           color:hotpink;
+           font-size: 40px;
+           font-weight: 600;
+       letter-spacing: 5px;
+           margin-top:100px;
+          
+       }
+    
+    button:hover{
+        background: red;
+    }
+       button i{
+           color: #E5B822;
+       }
+       .skills{
+          background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaWPYTiq5mRr8cfGS1fCscwXNfyWhSKq8SdwkKQzTsAAikjvBRgvDIEfahe7U3uLntu2w&usqp=CAU");
+           height:600px;
+           width:100%;
+          
+           background-repeat: ;
+          
+           text-align: center;
+       animation: skills 2s  ease-in-out;
+        
+       
+    }
+  
+    
+    @keyframes skills{
+        0%{
+            opacity: 0;
+            transform: translateX(100%);
+        }
+    }
+     
+    
+       .skillscontent h1{
+           font-family: 'Domine', serif;
+           text-align: center;
+           margin-top: 10px;
+           color:white;
+           font-size:30px;
+           letter-spacing: 5px
+           }
+       
+     .skillscontent p{
+     color:dodgerblue;
+     text-align:left;
+     margin-left:10px;
+     font-weight:bold;
+     }
+     
+       .imath{
+           background-image: url("https://c4.wallpaperflare.com/wallpaper/834/602/559/computer-keyboards-wallpaper-preview.jpg");
+           height: 500px;
+           width: 100%;
+            font-weight:bold;
+          color:slateblue;
+           background-repeat: no-repeat;
+           background-size: cover;
+        animation:bgimg 2s  ease-in-out;
+          
+       
+    }
+    @keyframes bgimg{
+        0%{
+            opacity: 0;
+            transform: translatex(-100%);
+        }
+    }
+    
+   
+       .content1 h1{
+           font-family: 'Domine', serif;
+           letter-spacing: 5px;
+        margin-top:10px;
+           text-align: center;
+           font-size: 30px;
+           color:red;
+           
+       }
+       .content1{
+           text-align: center;
+          
+       }
+       .content1 p1,p2,p3,p4,p5{
+            font-family: 'Caveat', cursive;
+           color:darkgrey;
+           font-size: 29px;                      
+       }
+       .content1 span{
+           color: yellow;
+           font-size: 20px;
+       }
+       .hackathon{
+           height: 363px;
+           width: 100%;
+           background-image: url("https://wallpaperaccess.com/full/36285.jpg");
+       }
+       .hackcontent h1{
+           font-family: 'Domine', serif;
+           letter-spacing: 5px;
+           font-size: 30px;
+           text-align: center;
+           color: red;
+       }
+       .hackimage1 img{
+           height: 300px;
+           width:350px;
+           margin-top: 10px;
+       }
+       .footer{
+           
+    height: 100px;
+    width: 100%;
+    background-color: black;
+       }
+      .fa-instagram{
+           color:gray;
+           font-size: 30px;
+          margin-top: 12px;
+        
+       }
+       .fa-facebook-f{
+           color: gray;
+           font-size: 25px;
+           margin-left: 15px
+       }
+       .fa-github{
+           color: gray;
+           font-size: 29px;
+           margin-left: 15px
+       }
+       .fa-linkedin{
+           color: gray;
+           font-size: 28px;
+           margin-left: 15px
+       }
+     .fnav a:hover{
+         
+           opacity: 50%;
+       }
+       .footer h3{
+           color: gray;
+          
+       }
+    </style>
+    
+    
+<body>
+ <div>    
+        <header>
+            
+<ul>
+
+                    <li><a href=" https://riyaashk.github.io/i-math-events-/"><i class="far fa-calendar"></i> Events</a></li>
+                    
+
+                    
+                     <li><a href=" #"><i class="far fa-image"></i> Gallery</a></li>
+                    
+         <li><a href="#"><i class="fa fa-user"></i> About us</a></li>
+    
+      
+        
+              
+               
+    
+   
+</ul>
+       </header>
+     </div> 
+  
+<div class="bgimg">
+
+ <img src="https://images.shiksha.com/mediadata/images/1494915589phpiDzgg8.png" width="100%" height="100%">
+
+         </div>
+
+    <div class="skills">
+        <div class="skillscontent">    
+        <h1><marquee>PSNA College Of Engineering And Technology</marquee></h1>
+        <br>
+
+<p><img src="https://www.targetadmission.com/img/logos/5958609630.jpg"  style="width:100px;height:100%;float:left;margin-left:10px;margin-right:10px;">
+Kalvithanthai Shri. R. S. Kothandaraman, Visionary, Philanthropist, Educationist and Pioneer chose the location on Dindigul - Palani Highway in TamilNadu, India and established the PSNA College of Engineering & Technology in 1984 with a vision to provide world class engineering education. It is a quality technical institution matching International standards. It has been making rapid strides in all fronts and setting new benchmarks.<br><br>
+
+ 
+
+i.Affiliated to Anna University, Chennai.<br>
+ii.Accredited with ‘A’ grade by NAAC.<br>
+iii.All UG Programmes along with MBA and MCA are accredited by National Board of Accreditation, New Delhi.<br>
+iv. 7 U.G programmes<br>
+v. 9 P.G programmes (including MCA and MBA)<br>
+vi. Outcome based education to develop graduates with desirable professional attributes.<br>
+vii. Research Excellence in all Departments being recognized as research centres by Anna University, Chennai.</p>   
+     </div>
+        </div>
+    <div class="imath">
+        
+        <div class="content1">  
+        
+               <br>
+            <h1>PSNA I-Math Club 2022</h1><br>
+            <p><img src="http://psnacet.edu.in/psnamathsintro_clip_image002.jpg"  style="width:100px;height:100%;float:right;margin-left:10px;margin-right:10px;">
+The Department of Mathematics conducts interdepartmental activities like Math’s quiz, Aptitude test, etc to develop the mathematical skills of the students.  Utmost care is taken by the faculty members of the department to bridge the curriculum and modern needs. In the year 2015-2016, maths club was renamed as i-math club(infinity math) with an intension to extend the maths club activities infinitely. In addition to all the above events i-math club of PSNACET conducted various inter departmental competitions like aptitude test, Maths quiz ,wherein the students expressed their mathematical skills. We focus on helping out the student to develop mathematical skills</>
+            
+           
+       
+  
+    </div>
+
+
+    
+    
+    </div>  
+    <div class="footer"><br>
+      <h3>Follow us On</h3>
+    <div class="fnav">
+          
+        <a href="https://www.instagram.com/k.riyaash/"><i class="fab fa-instagram"></i></a>
+        
+        <a href="https://www.facebook.com/riyaash.riyaash.k"><i class="fab fa-facebook-f"></i></a>
+        
+        <a href="https://github.com/Riyaashk"> <i class="fab fa-github"></i></a>
+        
+        <a href="https://www.linkedin.com/in/riyaash-k-287717201"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    </body>
+</html>
+
+
